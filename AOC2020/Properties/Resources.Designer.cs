@@ -154,5 +154,36 @@ namespace AOC2020.Properties {
                 return ResourceManager.GetString("Data", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1-14 b: bbbbbbbbbbbbbbbbbbb
+        ///3-14 v: vvpvvvmvvvvvvvv
+        ///2-5 m: mfvxmmm
+        ///15-20 z: zdzzzrjzzzdpzzdzzzzz
+        ///6-8 g: tggjggggrg
+        ///2-3 l: nlllw
+        ///1-5 j: jjjjj
+        ///4-5 t: prttt
+        ///2-4 v: vvrqzp
+        ///4-6 v: vvvvvqvvv
+        ///7-8 d: mpntdwkd
+        ///2-12 w: jwkfktkbthcwvfrkwgz
+        ///12-16 j: jjjjpjjmdhjjdjjjjjjj
+        ///10-11 f: fffffffffff
+        ///3-20 n: pbclshqmxtkmgsmztjlm
+        ///11-12 q: qqqqxqqqqqqqwqrxqs
+        ///5-6 p: hppvnppcvqf
+        ///10-11 k: kckkrbkxtknhkkkk
+        ///5-7 m: kmmgxgmnnpzrzmgsbm
+        ///10-17 b: bbbbbbbbbbbbbbbbrbbb
+        ///5-7 v: vvvvtqvvvv
+        ///6-8 g: gggggpglgzgg
+        ///8-16 q: fqtqqq [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Input {
+            get {
+                return ResourceManager.GetString("Input", resourceCulture);
+            }
+        }
     }
 }
