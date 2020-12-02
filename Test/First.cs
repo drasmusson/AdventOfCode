@@ -6,7 +6,7 @@ using System.Diagnostics;
 namespace Test
 {
     [TestClass]
-    public class UnitTest1
+    public class First
     {
         [TestMethod]
         public void First1_Correct()

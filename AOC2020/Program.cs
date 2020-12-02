@@ -10,7 +10,7 @@ namespace AOC2020
         {
             var input = Second.Input.InputList;
 
-            Console.WriteLine(Second.Logic.First());
+            Console.WriteLine(Second.Logic.Run2());
             
         }
 
