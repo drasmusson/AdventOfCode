@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace AOC2020.Second
 {
@@ -20,7 +19,8 @@ namespace AOC2020.Second
             var matchCount = passwordDataList.Where(pwd => pwd.IsValid1()).Count();
             return matchCount;
         }
-        public static int Run2(List<string>input)
+
+        public static int Run2(List<string> input)
         {
             var passwordDataList = input.Select(line => new PasswordData(line));
             var matchCount = passwordDataList.Where(pwd => pwd.IsValid2()).Count();
@@ -33,9 +33,7 @@ namespace AOC2020.Second
             var matchCount = passwordDataList.Where(pwd => pwd.IsValid2()).Count();
             return matchCount;
         }
-
     }
-
 
     internal class PasswordData
     {
@@ -65,8 +63,8 @@ namespace AOC2020.Second
 
         public bool IsValid2()
         {
-            var firstMatch = Password[Min-1] == Char;
-            var secondMatch = Password[Max-1] == Char;
+            var firstMatch = Password[Min - 1] == Char;
+            var secondMatch = Password[Max - 1] == Char;
 
             return firstMatch ^ secondMatch;
         }

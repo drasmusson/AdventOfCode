@@ -8,9 +8,7 @@ namespace AOC2020
     {
         static void Main(string[] args)
         {
-            var input = Second.Input.InputList;
-
-            Console.WriteLine(Second.Logic.Run2());
+            Console.WriteLine(Third.Logic.Run());
             
         }
 

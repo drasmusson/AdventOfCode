@@ -24,23 +24,23 @@ namespace Test
             var sw = new Stopwatch();
             sw.Start();
             AOC2020.Second.Logic.Run1();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run1();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run1();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run1();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run1();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Stop();
         }
 
@@ -60,23 +60,23 @@ namespace Test
             var sw = new Stopwatch();
             sw.Start();
             AOC2020.Second.Logic.Run2();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run2();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run2();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run2();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Reset();
             sw.Start();
             AOC2020.Second.Logic.Run2();
-            Debug.WriteLine(sw.Elapsed);
+            Debug.WriteLine(sw.ElapsedMilliseconds);
             sw.Stop();
         }
     }
