@@ -10,7 +10,7 @@ namespace AOC2020.Fourth
     {
         public static int Run()
         {
-            var listOfPassportInputs = Input.InputList;
+            var listOfPassportInputs = InputParser.InputList;
 
             var listOfNorthPoleCredentials = new List<NorthPoleCredentials>();
 
@@ -126,12 +126,8 @@ namespace AOC2020.Fourth
                 return false;
 
             if (HairColor.Length == 7)
-            {
-                if (HairColor[0] == '#')
-                {
-                    return Regex.IsMatch(HairColor.Split('#').Last(), @"^[a-fA-F0-9]+$");
-                }
-            }
+                return Regex.IsMatch(HairColor, @"^#[a-fA-F0-9]{6}$");
+
             return false;
         }
 

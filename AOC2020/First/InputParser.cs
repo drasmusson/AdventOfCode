@@ -7,11 +7,8 @@ using System.Text;
 
 namespace AOC2020
 {
-    public static class Input
+    public static class InputParser
     {
-
-
-        //public static List<int> InputList = Resources.ResourceManager.GetObject("Data.txt");
         public static List<int> InputList = GetInput();
 
         private static List<int> GetInput()

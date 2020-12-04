@@ -8,7 +8,7 @@ namespace AOC2020.Third
     {
         public static int Run()
         {
-            var input = Third.Input.InputList;
+            var input = Third.InputParser.InputList;
 
             var treeCount = Third2(input);
 

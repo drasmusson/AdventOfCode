@@ -27,7 +27,7 @@ namespace Test
         [TestMethod]
         public void First2_Performance()
         {
-            var input = Input.InputList;
+            var input = InputParser.InputList;
             var sw = new Stopwatch();
             sw.Start();
             Logic.First2(input);
@@ -63,7 +63,7 @@ namespace Test
         [TestMethod]
         public void First2Faster_Performance()
         {
-            var input = Input.InputList;
+            var input = InputParser.InputList;
             var sw = new Stopwatch();
             sw.Start();
             Logic.First2Faster(input);

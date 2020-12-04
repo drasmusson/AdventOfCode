@@ -1,12 +1,10 @@
 ﻿using AOC2020.Properties;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace AOC2020.Third
 {
-    public static class Input
+    public static class InputParser
     {
         public static List<string> InputList = GetInput();
 

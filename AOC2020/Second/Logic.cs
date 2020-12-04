@@ -15,7 +15,7 @@ namespace AOC2020.Second
 
         public static int Run1()
         {
-            var passwordDataList = Input.InputList.Select(line => new PasswordData(line));
+            var passwordDataList = InputParser.InputList.Select(line => new PasswordData(line));
             var matchCount = passwordDataList.Where(pwd => pwd.IsValid1()).Count();
             return matchCount;
         }
@@ -29,7 +29,7 @@ namespace AOC2020.Second
 
         public static int Run2()
         {
-            var passwordDataList = Input.InputList.Select(line => new PasswordData(line));
+            var passwordDataList = InputParser.InputList.Select(line => new PasswordData(line));
             var matchCount = passwordDataList.Where(pwd => pwd.IsValid2()).Count();
             return matchCount;
         }

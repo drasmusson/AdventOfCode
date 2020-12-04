@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace AOC2020.Second
 {
-    public static class Input
+    public static class InputParser
     {
         public static List<string> InputList = GetInput();
 

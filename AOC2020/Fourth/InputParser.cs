@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AOC2020.Fourth
 {
-    public static class Input
+    public static class InputParser
     {
         public static List<List<string>> InputList => GetInput();
 
