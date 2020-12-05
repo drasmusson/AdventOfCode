@@ -156,6 +156,57 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to BFFFBFFRLR
+        ///FBBBFFBRRL
+        ///FFBFBFFRRR
+        ///FBBFBFFRRR
+        ///BBBFFFFLLR
+        ///FFBFBBFRRR
+        ///BFFBBFFLRL
+        ///BBBFBBFLRR
+        ///BFFBFBFLRR
+        ///BBBFFBFLLL
+        ///BFBFBBBRRR
+        ///FBBBBBFLRR
+        ///BBFFBBFRRL
+        ///BFBBBBBRLR
+        ///FBBFFFFRLR
+        ///BBFFBFFRRL
+        ///FBBFFFBRRR
+        ///FFBBBBFRRL
+        ///BFBBBFFRRR
+        ///BBBFBFBRRR
+        ///FBFFBFBRLR
+        ///BFFBBFBLLL
+        ///BBFFFFFRRL
+        ///FBBBBFBRLR
+        ///FBBBBBFRLR
+        ///BFFBBBFLRR
+        ///FBFBFBFLLR
+        ///FFBFFFBRRR
+        ///BBBFFBBLRR
+        ///BBBFFBBLRL
+        ///BBFBFFBLRR
+        ///BBBFFFFRRL
+        ///FBFFFBFLRR
+        ///BBFBBBFRLL
+        ///BBBFFBFLRR
+        ///FBFFFFBLRR
+        ///FBBBBBFLRL
+        ///BBFFFBBRRL
+        ///BBFFBFBLRL
+        ///BBBFBBFRLR
+        ///FFBBFFFRRL
+        ///BBFBBBFLRL
+        ///BFBBFFBR [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string FifthInput {
+            get {
+                return ResourceManager.GetString("FifthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to byr:2024 iyr:2016
         ///eyr:2034 ecl:zzz pid:985592671 hcl:033b48
         ///hgt:181 cid:166
