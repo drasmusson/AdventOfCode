@@ -272,6 +272,65 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to onitvpuwxqczlmkabsjrgedfy
+        ///epdjqbxlnimfaowtzgsyku
+        ///pejglyqnwuaodzsbmfxikt
+        ///ojkpytdhignxuqebzlwsfma
+        ///gfadqolubinjxtkwpemszy
+        ///
+        ///i
+        ///x
+        ///i
+        ///i
+        ///
+        ///nmtyqwsoglva
+        ///nyvtsgwmlaoq
+        ///ysgmlnwvatqo
+        ///nvgdamotqyslw
+        ///ylmgtaqsnvow
+        ///
+        ///uoqwrdpbntje
+        ///cqpjnou
+        ///jnupyoq
+        ///npojuqs
+        ///
+        ///tbsafengq
+        ///eabqsftgndmx
+        ///beaintysgqhof
+        ///
+        ///ygtdfwuaorvchpnqzjlkbs
+        ///fatqvskwudbljphryogc
+        ///
+        ///jgewimpbkdaoslr
+        ///ypxzgdwqteshnau
+        ///
+        ///vdytrl
+        ///rcltq
+        ///ztlmkoi
+        ///tylr
+        ///gtlba
+        ///
+        ///oxgpa
+        ///ogaxp
+        ///pgoxa
+        ///
+        ///edi
+        ///jtm
+        ///b
+        ///jmug
+        ///
+        ///deoptcxnjhrqu
+        ///termcldofphxv
+        ///ckgbwhedpsroxt
+        ///        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SixthInput {
+            get {
+                return ResourceManager.GetString("SixthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .........###......#...#.......#
         ///.#.#...........#..#..#.........
         ///#.......#.................#....
