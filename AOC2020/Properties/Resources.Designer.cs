@@ -272,6 +272,22 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to pale chartreuse bags contain 3 faded orange bags.
+        ///drab gold bags contain 5 dark aqua bags.
+        ///mirrored magenta bags contain 3 dotted violet bags.
+        ///posh black bags contain 3 dark lavender bags, 3 mirrored coral bags, 1 dotted chartreuse bag.
+        ///striped yellow bags contain 5 pale red bags, 2 light lime bags, 5 clear indigo bags.
+        ///bright aqua bags contain 2 vibrant orange bags, 4 clear lavender bags, 1 pale gray bag.
+        ///dim silver bags contain 2 bright blue bags, 3 faded olive bags, 1 faded cyan bag.
+        ///light beige b [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SeventhInput {
+            get {
+                return ResourceManager.GetString("SeventhInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to onitvpuwxqczlmkabsjrgedfy
         ///epdjqbxlnimfaowtzgsyku
         ///pejglyqnwuaodzsbmfxikt
