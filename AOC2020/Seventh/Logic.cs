@@ -57,25 +57,6 @@ namespace AOC2020.Seventh
             return bags;
         }
 
-        private static int GetParentCount(string currentBag, int currentCount, Dictionary<string, List<string>> input)
-        {
-            input.Remove(currentBag);
-
-            if (input.Count == 0)
-                return currentCount;
-
-            var parents = input.Where(x => x.Value.Contains(currentBag));
-
-            currentCount += parents.Count();
-
-            foreach (var child in parents)
-            {
-                currentCount += GetParentCount(child.Key, currentCount, input);
-            }
-
-            return currentCount;
-        }
-
         private class Bag
         {
             public string Color { get; set; }
