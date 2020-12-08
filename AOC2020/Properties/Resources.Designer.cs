@@ -156,6 +156,70 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to jmp +301
+        ///acc +27
+        ///nop +299
+        ///jmp +168
+        ///acc +0
+        ///acc +48
+        ///acc -5
+        ///jmp +420
+        ///jmp +155
+        ///acc -16
+        ///acc -15
+        ///nop +582
+        ///acc -5
+        ///jmp +490
+        ///acc +10
+        ///nop +300
+        ///acc -2
+        ///acc -1
+        ///jmp +252
+        ///jmp +2
+        ///jmp +234
+        ///acc +36
+        ///acc +50
+        ///jmp +564
+        ///jmp +102
+        ///jmp +473
+        ///acc +37
+        ///acc +1
+        ///acc +20
+        ///jmp +355
+        ///acc +28
+        ///acc -14
+        ///acc +22
+        ///jmp +329
+        ///acc +44
+        ///jmp +1
+        ///jmp +23
+        ///nop +312
+        ///jmp +251
+        ///acc +12
+        ///acc +39
+        ///acc +33
+        ///jmp -21
+        ///acc +28
+        ///acc +14
+        ///acc +42
+        ///acc +33
+        ///jmp +502
+        ///jmp +123
+        ///acc +24
+        ///jmp +11
+        ///acc -8
+        ///nop +218
+        ///nop +516
+        ///jmp +244
+        ///jmp  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string EighthInput {
+            get {
+                return ResourceManager.GetString("EighthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to BFFFBFFRLR
         ///FBBBFFBRRL
         ///FFBFBFFRRR

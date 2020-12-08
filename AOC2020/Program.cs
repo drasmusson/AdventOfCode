@@ -8,7 +8,7 @@ namespace AOC2020
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Seventh.Logic.Run());
+            Console.WriteLine(Eighth.Logic.Run());
             
         }
 
