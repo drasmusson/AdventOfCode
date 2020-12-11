@@ -220,6 +220,38 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to LLLLLLLLLLLLLLLLLLLLLLL.LLLLLLL.L.LLLLL.LLLL.LLLLLLLLL..LLL.LLLLLLLLLLLLLL.LLLLLLLLL.LLL.LLLLLL
+        ///LLLLLLLLLL.L.LLLLLLL.LL.LLLLLLL.LLLLLLLL.LLLLLLLLLLLLL.LLLLLLLLLLL.LLLLLLLL.LLLLLLLLLLLL.LLLLLL
+        ///LLLLLLLL.L.LLLLLLLLLLLL.LLLLLLL.LLLLLL.LLLLL.LLLLLLLLL.LLLLLLLLLLL.LLLLLLLLLLLLLLLL.LLLL.LLLLLL
+        ///.LLLLLLLLLLLLLLLLL.LLLL.LLLLLLL.LLLLLL.LLLLL.LLL.LLLLLLLLLL.LLLLLL.LLLLLLLL.LLLLLL.LLLLL.LLLLLL
+        ///LLLLLLLLLLLLLLLLLLLLLLL.LLLLLLL.LLL.LLLLL.LL.LLLLLLLLL.LLLL.LLLLLL.LLLLLLLL.LLLLLLL.LLLL.LLLLLL
+        ///LLL.LL..L..L.LL.L.L........ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string EleventhInput {
+            get {
+                return ResourceManager.GetString("EleventhInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to L.LL.LL.LL
+        ///LLLLLLL.LL
+        ///L.L.L..L..
+        ///LLLL.LL.LL
+        ///L.LL.LL.LL
+        ///L.LLLLL.LL
+        ///..L.L.....
+        ///LLLLLLLLLL
+        ///L.LLLLLL.L
+        ///L.LLLLL.L.
+        /// </summary>
+        internal static string EleventhInputTest {
+            get {
+                return ResourceManager.GetString("EleventhInputTest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to BFFFBFFRLR
         ///FBBBFFBRRL
         ///FFBFBFFRRR

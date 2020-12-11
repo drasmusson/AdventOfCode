@@ -124,6 +124,12 @@
   <data name="EighthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Eighth\EighthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="EleventhInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Eleventh\EleventhInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="EleventhInputTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Eleventh\EleventhInputTest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="FifthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Fifth\FifthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
