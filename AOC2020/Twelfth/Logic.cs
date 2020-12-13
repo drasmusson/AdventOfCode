@@ -110,7 +110,7 @@ namespace AOC2020.Twelfth
                         break;
 
                     case 'R':
-                        wayPoint = RotateWayPoint(wayPoint, 360 - command.steps);
+                        wayPoint = RotateWayPoint(wayPoint, command.steps * -1);
                         break;
 
                     case 'F':
