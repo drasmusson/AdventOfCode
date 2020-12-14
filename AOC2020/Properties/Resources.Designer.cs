@@ -721,6 +721,36 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 1009310
+        ///19,x,x,x,x,x,x,x,x,x,x,x,x,37,x,x,x,x,x,599,x,29,x,x,x,x,x,x,x,x,x,x,x,x,x,x,17,x,x,x,x,x,23,x,x,x,x,x,x,x,761,x,x,x,x,x,x,x,x,x,41,x,x,13.
+        /// </summary>
+        internal static string ThirteenthInput {
+            get {
+                return ResourceManager.GetString("ThirteenthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 123
+        ///1789,37,47,1889.
+        /// </summary>
+        internal static string ThirteenthInputTest {
+            get {
+                return ResourceManager.GetString("ThirteenthInputTest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 123
+        ///1789,37,47,1889.
+        /// </summary>
+        internal static string ThirteenthInputTest1 {
+            get {
+                return ResourceManager.GetString("ThirteenthInputTest1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to F8
         ///N2
         ///F32
@@ -838,19 +868,6 @@ namespace AOC2020.Properties {
         internal static string TwelfthInput {
             get {
                 return ResourceManager.GetString("TwelfthInput", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to F10
-        ///N3
-        ///F7
-        ///R90
-        ///F11.
-        /// </summary>
-        internal static string TwelfthInputTest {
-            get {
-                return ResourceManager.GetString("TwelfthInputTest", resourceCulture);
             }
         }
     }

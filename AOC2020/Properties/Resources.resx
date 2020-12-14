@@ -154,10 +154,16 @@
   <data name="ThirdInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Third\ThirdInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="ThirteenthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Thirteenth\ThirteenthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ThirteenthInputTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Thirteenth\ThirteenthInputTest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ThirteenthInputTest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Thirteenth\ThirteenthInputTest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="TwelfthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Twelfth\TwelfthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="TwelfthInputTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Twelfth\TwelfthInputTest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
 </root>
