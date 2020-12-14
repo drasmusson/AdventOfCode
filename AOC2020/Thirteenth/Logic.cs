@@ -14,8 +14,44 @@ namespace AOC2020.Thirteenth
             //var input = InputParser.InputList;
             var input2 = InputParser.InputList2;
             //var result1 = First(input);
-            var result2 = Second(input2);
+            var result2 = SecondTry2(input2);
             return result2;
+        }
+
+        private static long SecondTry2(List<string> input2)
+        {
+            var data = new List<(int, int)>();
+            
+            for (int i = 0; i < input2.Count; i++)
+            {
+
+                if (input2[i] != "x")
+                {
+                    var id = int.Parse(input2[i]);
+
+                    data.Add((id, i));
+                }
+            }
+            long jumps = 1;
+            var currentIndexToSearchFor = 0;
+
+            for (long i = 1; i < long.MaxValue; i+= jumps)
+            {
+                if ((i + data[currentIndexToSearchFor].Item2) % data[currentIndexToSearchFor].Item1 == 0)
+                {
+                    jumps = data[currentIndexToSearchFor].Item1 * jumps;
+
+                    currentIndexToSearchFor++;
+
+                    if (currentIndexToSearchFor == data.Count)
+                    {
+                        return i;
+                    }
+
+                    i += jumps;
+                }
+            }
+            return 0;
         }
 
         private static long Second(List<string> input2)
