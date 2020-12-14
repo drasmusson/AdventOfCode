@@ -303,6 +303,34 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to mask = 0X0X1110X1010X1X10010X0011010X100110
+        ///mem[40190] = 23031023
+        ///mem[13516] = 384739600
+        ///mask = XX00111XX1010X0110011110X1XX110010X1
+        ///mem[12490] = 3068791
+        ///mem[61106] = 3432
+        ///mem[48664] = 204086010
+        ///mask = X0X01101010001X10X01X1X1101010100000
+        ///mem[43153] = 831935068
+        ///mem[61625] = 5711
+        ///mem[43599] = 125635699
+        ///mem[36959] = 776266806
+        ///mask = 0000111XX1010101X001XXX1X01000001110
+        ///mem[48186] = 257869
+        ///mem[59392] = 738895
+        ///mem[65386] = 4054824
+        ///mem[10464] = 2127
+        ///mem[13157] = 3065832
+        ///mem[32527] = 5148099
+        ///me [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string FourteenthInput {
+            get {
+                return ResourceManager.GetString("FourteenthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to byr:2024 iyr:2016
         ///eyr:2034 ecl:zzz pid:985592671 hcl:033b48
         ///hgt:181 cid:166
