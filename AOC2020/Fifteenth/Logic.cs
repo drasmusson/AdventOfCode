@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace AOC2020.Fifteenth
 {
@@ -11,9 +9,9 @@ namespace AOC2020.Fifteenth
         {
             var input = InputParser.InputList;
 
-            var result1 = First(input);
+            //var result1 = First(input);
             var result2 = Second(input);
-            return result1;
+            return result2;
         }
 
         private static int First(List<int> input)
