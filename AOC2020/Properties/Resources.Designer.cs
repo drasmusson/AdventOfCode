@@ -331,6 +331,18 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to mask = 000000000000000000000000000000X1001X
+        ///mem[42] = 100
+        ///mask = 00000000000000000000000000000000X0XX
+        ///mem[26] = 1.
+        /// </summary>
+        internal static string FourteenthInputTest {
+            get {
+                return ResourceManager.GetString("FourteenthInputTest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to byr:2024 iyr:2016
         ///eyr:2034 ecl:zzz pid:985592671 hcl:033b48
         ///hgt:181 cid:166

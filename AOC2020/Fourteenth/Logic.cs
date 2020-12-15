@@ -42,20 +42,24 @@ namespace AOC2020.Fourteenth
 
         private static long Second(List<(string mask, List<ProgramInput> inputs)> input)
         {
-            var memoryList = new Dictionary<int, long>();
+            var memoryList = new Dictionary<long, long>();
 
             foreach (var chunk in input)
             {
                 foreach (var pi in chunk.inputs)
                 {
                     var newMemoryPosition = ApplyMask2(chunk.mask, pi);
-                    if (memoryList.ContainsKey(pi.MemoryPosition))
+
+                    foreach (var memPos in newMemoryPosition)
                     {
-                        memoryList[pi.MemoryPosition] = newMemoryPosition;
-                    }
-                    else
-                    {
-                        memoryList.Add(pi.MemoryPosition, newMemoryPosition);
+                        if (memoryList.ContainsKey(memPos))
+                        {
+                            memoryList[memPos] = pi.Value;
+                        }
+                        else
+                        {
+                            memoryList.Add(memPos, pi.Value);
+                        }
                     }
                 }
             }
@@ -81,7 +85,7 @@ namespace AOC2020.Fourteenth
             return Convert.ToInt64(binaryValue, 2);
         }
 
-        private static long ApplyMask2(string mask, ProgramInput pi)
+        private static List<long> ApplyMask2(string mask, ProgramInput pi)
         {
             var binaryValue = Convert.ToString(pi.MemoryPosition, 2).PadLeft(36, '0');
 
@@ -107,14 +111,21 @@ namespace AOC2020.Fourteenth
             var combinations = new List<string>();
             combinations = Generate(xCount, arr, 0, combinations);
 
-            var memoryPositions = new List<long>();
-            foreach (var c in combinations)
+            var newBinaryValues = new List<string>();
+
+            foreach (var binaryCombination in combinations)
             {
-                // Find memory position by replacing X in binaryValue with corresponding bit from combination
+                var newBinaryString = new StringBuilder(binaryValue);
+                for (int i = 0; i < binaryCombination.Length; i++)
+                {
+                    var binaryIndex = xIndexes[i];
 
+                    newBinaryString[binaryIndex] = binaryCombination[i];
+                }
+                newBinaryValues.Add(newBinaryString.ToString());
             }
-
-            return Convert.ToInt64(binaryValue, 2);
+            var memoryPositions = newBinaryValues.Select(bv => Convert.ToInt64(bv, 2)).ToList();
+            return memoryPositions;
         }
 
         static List<string> Generate(int n, int[] arr, int i, List<string> combinations)
