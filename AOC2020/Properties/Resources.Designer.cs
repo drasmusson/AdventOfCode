@@ -252,6 +252,24 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 9,6,0,10,18,2,1.
+        /// </summary>
+        internal static string FifteenthInput {
+            get {
+                return ResourceManager.GetString("FifteenthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string FifteenthInputTest {
+            get {
+                return ResourceManager.GetString("FifteenthInputTest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to BFFFBFFRLR
         ///FBBBFFBRRL
         ///FFBFBFFRRR
