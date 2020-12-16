@@ -9,7 +9,7 @@ namespace AOC2020.Fifteenth
         {
             var input = InputParser.InputList;
 
-            //var result1 = First(input);
+            var result1 = First(input);
             var result2 = Second(input);
             return result2;
         }

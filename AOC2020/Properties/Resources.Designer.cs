@@ -261,7 +261,7 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 0,3,6.
         /// </summary>
         internal static string FifteenthInputTest {
             get {
@@ -570,6 +570,30 @@ namespace AOC2020.Properties {
         internal static string SeventhInput {
             get {
                 return ResourceManager.GetString("SeventhInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to departure location: 27-374 or 395-974
+        ///departure station: 40-287 or 295-953
+        ///departure platform: 27-554 or 570-961
+        ///departure track: 40-604 or 618-958
+        ///departure date: 43-842 or 850-972
+        ///departure time: 30-302 or 315-952
+        ///arrival location: 32-478 or 496-950
+        ///arrival station: 48-733 or 755-969
+        ///arrival platform: 37-260 or 276-954
+        ///arrival track: 40-512 or 519-964
+        ///class: 34-277 or 284-966
+        ///duration: 25-648 or 672-961
+        ///price: 28-684 or 705-956
+        ///route: 30-157 or 176-950
+        ///row: 47-881 or 903-970
+        ///seat: 38-705 or [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SixteenthInput {
+            get {
+                return ResourceManager.GetString("SixteenthInput", resourceCulture);
             }
         }
         

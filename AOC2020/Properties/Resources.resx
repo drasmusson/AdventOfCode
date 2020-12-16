@@ -157,6 +157,9 @@
   <data name="SeventhInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Seventh\SeventhInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="SixteenthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sixteenth\SixteenthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="SixthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sixth\SixthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
