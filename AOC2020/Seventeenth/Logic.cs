@@ -12,30 +12,24 @@ namespace AOC2020.Seventeenth
             var input = InputParser.InputList;
             var sw = new Stopwatch();
 
-            sw.Start();
             var result1 = First(input);
-            Debug.WriteLine(sw.Elapsed);
-            sw.Reset();
-            sw.Start();
 
             var result2 = Second(input);
-            Debug.WriteLine(sw.Elapsed);
 
             return result2;
-        }
-
-        private static int Second(List<string> input)
-        {
-            var grid = new Cubes4D(input);
-
-            grid.FlipNumberOfTimes(6);
-
-            return grid.Actives.Count;
         }
 
         private static int First(List<string> input)
         {
             var grid = new Cubes3D(input);
+
+            grid.FlipNumberOfTimes(6);
+
+            return grid.Actives.Count;
+        }
+        private static int Second(List<string> input)
+        {
+            var grid = new Cubes4D(input);
 
             grid.FlipNumberOfTimes(6);
 
