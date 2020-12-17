@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace AOC2020
 {
@@ -8,10 +9,8 @@ namespace AOC2020
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Sixteenth.Logic.Run());
+            Console.WriteLine(Seventeenth.Logic.Run());
             
         }
-
-       
     }
 }

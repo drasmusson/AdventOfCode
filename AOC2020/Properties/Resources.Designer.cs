@@ -558,6 +558,33 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to #.##.##.
+        ///.##..#..
+        ///....#..#
+        ///.##....#
+        ///#..##...
+        ///.###..#.
+        ///..#.#..#
+        ///.....#...
+        /// </summary>
+        internal static string SeventeenthInput {
+            get {
+                return ResourceManager.GetString("SeventeenthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .#.
+        ///..#
+        ///###.
+        /// </summary>
+        internal static string SeventeenthInputTest {
+            get {
+                return ResourceManager.GetString("SeventeenthInputTest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to pale chartreuse bags contain 3 faded orange bags.
         ///drab gold bags contain 5 dark aqua bags.
         ///mirrored magenta bags contain 3 dotted violet bags.

@@ -154,6 +154,12 @@
   <data name="NinthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Ninth\NinthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="SeventeenthInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Seventeenth\SeventeenthInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SeventeenthInputTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Seventeenth\SeventeenthInputTest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="SeventhInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Seventh\SeventhInput.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
