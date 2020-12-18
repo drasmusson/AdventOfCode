@@ -156,6 +156,21 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 9 + 2 * ((7 + 9 + 5 + 7) * 3 + (5 * 3 * 6 * 5 + 6) + (9 * 4 + 9 * 6 + 9)) * 8 + 5
+        ///(5 * 2 * 2 + (3 * 8 * 9 * 7) * 3 * 9) * (7 + 3 + (5 + 4 + 8 + 6) + 3 + 2 + 2) * 4 * 8
+        ///2 + 6 * (2 * (2 * 6) * 3 + (7 + 2 * 4 + 7)) * 8 + 5 * 4
+        ///7 + 5 + (8 * 6 + 8) * 6 + (4 * 3 + 5 * 8 + 7 * 9) + 5
+        ///((4 * 8 + 2 + 9 * 3 * 7) * (3 + 6 + 3 * 2 * 7 + 4) + 2 * (9 * 5) * 4 * 3) + 9 + (3 + 9 * 2 + 9 + (4 * 3) * (4 + 4 + 7 * 5 * 2 * 9)) * 4
+        ///(8 + 8 + 3) * 7 + (7 * 7 + 7)
+        ///9 + ((8 * 2 * 6 + 2 + 6) * 6 + 3 + 2 * 9) * 3 * ((7 * 4 + 6) * [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string EighteenthInput {
+            get {
+                return ResourceManager.GetString("EighteenthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to jmp +301
         ///acc +27
         ///nop +299
