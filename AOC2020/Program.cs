@@ -9,7 +9,7 @@ namespace AOC2020
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Eighteenth.Logic.Run());
+            Console.WriteLine(Nineteenth.Logic.Run());
             
         }
     }

@@ -441,6 +441,56 @@ namespace AOC2020.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 123: 39 86 | 127 32
+        ///131: 29 32 | 93 86
+        ///69: 76 86 | 79 32
+        ///39: 32 105 | 86 120
+        ///59: 86 117 | 32 112
+        ///81: 134 32 | 22 86
+        ///17: 86 55 | 32 50
+        ///3: 86 60 | 32 87
+        ///78: 132 86 | 41 32
+        ///133: 86 6 | 32 132
+        ///115: 36 86 | 40 32
+        ///87: 38 86 | 49 32
+        ///11: 42 31
+        ///129: 32 94 | 86 61
+        ///126: 137 86 | 67 32
+        ///64: 124 32 | 119 86
+        ///127: 86 83 | 32 47
+        ///84: 2 86 | 5 32
+        ///57: 96 32 | 131 86
+        ///16: 28 32 | 6 86
+        ///21: 86 91 | 32 41
+        ///44: 32 88 | 86 92
+        ///99: 86 112
+        ///4: 135 32 | 59 86
+        ///6: 86 86 | 86 32
+        ///60: 32 110 | 86 66
+        ///20: 70 32 | 29 86
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string NineteenthInput {
+            get {
+                return ResourceManager.GetString("NineteenthInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0: 4 1
+        ///1: 2 3 | 3 2
+        ///2: 4 4 | 5 5
+        ///3: 4 5 | 5 4
+        ///4: &quot;a&quot;
+        ///5: &quot;b&quot;.
+        /// </summary>
+        internal static string NineteenthInputTest {
+            get {
+                return ResourceManager.GetString("NineteenthInputTest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 14
         ///9
         ///43
